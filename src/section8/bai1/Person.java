@@ -1,4 +1,4 @@
-package section8.model;
+package section8.bai1;
 
 public class Person {
     private int id;
@@ -48,6 +48,9 @@ public class Person {
         this.gender = gender;
     }
     public void info () {
-
+        System.out.println("Id : "+id);
+        System.out.println("Name : "+name);
+        System.out.println("Age : "+age);
+        System.out.println("Gender : "+gender);
     }
 }
